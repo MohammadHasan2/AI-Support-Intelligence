@@ -1,0 +1,90 @@
+﻿[
+  {
+    "id": "refund_01",
+    "question": "What are the requirements for requesting a refund?",
+    "relevant_chunk_ids": ["5ef18ecb-e902-4d86-9249-7f28cebb5c99"],
+    "expected_sources": ["refund_policy.md"],
+    "answerable": true,
+    "required_facts": ["30 days", "order number", "proof of purchase"]
+  },
+  {
+    "id": "shipping_01",
+    "question": "How long does standard shipping usually take after dispatch?",
+    "relevant_chunk_ids": ["c6042520-7653-4630-b775-c8961f52edd3"],
+    "expected_sources": ["shipping_policy.md"],
+    "answerable": true,
+    "required_facts": ["3 to 7 business days"]
+  },
+  {
+    "id": "account_01",
+    "question": "How can a customer reset a forgotten password?",
+    "relevant_chunk_ids": ["50626b3d-a709-414c-b8a2-85e2db3d0e4c"],
+    "expected_sources": ["account_support.md"],
+    "answerable": true,
+    "required_facts": ["forgot password", "reset link"]
+  },
+  {
+    "id": "damaged_01",
+    "question": "What should a customer do after receiving a damaged item?",
+    "relevant_chunk_ids": ["aaf21ce9-346d-449a-8bed-4ca9857b7c28"],
+    "expected_sources": ["damaged_items.md"],
+    "answerable": true,
+    "required_facts": ["order number", "description", "eligibility"]
+  },
+  {
+    "id": "payment_01",
+    "question": "What should a customer do if they think they were charged twice?",
+    "relevant_chunk_ids": ["af5c2ef8-0965-4f09-a394-516281e0394b"],
+    "expected_sources": ["payment_methods.md"],
+    "answerable": true,
+    "required_facts": ["transaction references", "order records"]
+  },
+  {
+    "id": "order_01",
+    "question": "Can a delivery address always be changed after an order is dispatched?",
+    "relevant_chunk_ids": ["706889da-5a74-41db-8982-3b6d0ed9dfe6"],
+    "expected_sources": ["order_changes.md"],
+    "answerable": true,
+    "required_facts": ["contact support", "may not be possible", "dispatched"]
+  },
+  {
+    "id": "security_01",
+    "question": "Should support ask customers for their passwords or password reset codes?",
+    "relevant_chunk_ids": ["9a5f7d65-d3c3-4837-b1d6-cd6f5057e59c"],
+    "expected_sources": ["account_security.md"],
+    "answerable": true,
+    "required_facts": ["never ask", "password", "password-reset codes"]
+  },
+  {
+    "id": "refund_02",
+    "question": "How long does a refund take after approval?",
+    "relevant_chunk_ids": ["5ef18ecb-e902-4d86-9249-7f28cebb5c99"],
+    "expected_sources": ["refund_policy.md"],
+    "answerable": true,
+    "required_facts": ["5 to 10 business days", "approval"]
+  },
+  {
+    "id": "shipping_02",
+    "question": "Do customers receive tracking information when their order ships?",
+    "relevant_chunk_ids": ["c6042520-7653-4630-b775-c8961f52edd3"],
+    "expected_sources": ["shipping_policy.md"],
+    "answerable": true,
+    "required_facts": ["tracking link"]
+  },
+  {
+    "id": "unknown_01",
+    "question": "What was the company's exact revenue yesterday?",
+    "relevant_chunk_ids": [],
+    "expected_sources": [],
+    "answerable": false,
+    "required_facts": []
+  },
+  {
+    "id": "unknown_02",
+    "question": "What is the home address of the company's CEO?",
+    "relevant_chunk_ids": [],
+    "expected_sources": [],
+    "answerable": false,
+    "required_facts": []
+  }
+]
