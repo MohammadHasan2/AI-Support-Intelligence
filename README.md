@@ -225,5 +225,15 @@ The backend environment variables must be configured for live integrations. Test
 - Building and deploying an interactive React application.
 
 ---
+### Optimization 1: HTTP Client Connection Pooling
 
+Reused HTTP connections across requests to Supabase Edge Functions instead of creating a new HTTP client for every request.
+
+**Reported benchmark results:**
+- Retrieval latency P50: 45.93% reduction
+- Retrieval latency P95: 34.55% reduction
+- Answer latency P50: 43.75% reduction
+- Answer latency P95: 30.04% reduction
+
+These results measure latency improvements; retrieval quality, answer quality, and failure rates should also be checked to ensure the optimization preserves system behavior.
 **Built as an AI engineering portfolio project focused on grounded generation, retrieval quality, evaluation, and measurable system behavior.**
