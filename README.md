@@ -4,9 +4,9 @@
 
 AI Support Intelligence retrieves relevant knowledge-base content, generates answers grounded in that evidence, and exposes citations so users can inspect the sources behind each response. It also includes an evaluation dashboard for measuring retrieval quality, answer checks, and latency.
 
-**Live Demo:** [Add your deployed frontend URL]  
-**Backend API:** [Add your deployed backend URL]  
-**API Documentation:** [Add your backend URL]/docs
+**Live Demo:** (https://ai-support-intelligence.pages.dev)  
+**Backend API:** (https://ai-support-intelligence-bw5b.onrender.com)  
+**API Documentation:** https://ai-support-intelligence-bw5b.onrender.com//docs
 
 ## Overview
 
